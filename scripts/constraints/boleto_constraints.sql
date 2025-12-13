@@ -6,4 +6,4 @@
 
 alter table boleto
 add constraint fk_contrato_boleto
-foreign key idContrato references contrato (idContrato);
+foreign key (idContrato) references contrato (idContrato);
