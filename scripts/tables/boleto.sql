@@ -13,5 +13,6 @@ create table if not exists boleto (
     valorBoleto decimal(15, 2) not null,
     statusBoleto varchar(20) not null,
     dataVencimento date not null,
+    idContrato integer not null,
     primary key (idBoleto)
 );
