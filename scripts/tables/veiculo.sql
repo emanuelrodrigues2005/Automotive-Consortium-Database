@@ -11,4 +11,4 @@ create table if not exists veiculo(
     marcaVeiculo varchar(100) not null,
     precoFipe decimal(15, 2) not null,
     primary key (idVeiculo)
-)
+);
