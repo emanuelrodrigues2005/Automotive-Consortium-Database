@@ -7,3 +7,7 @@
 alter table consorcio 
 add constraint fk_consorcio_administrador
 foreign key (idAdministrador) references administrador (cpfAdmin);
+
+alter table consorcio
+add constraint fk_consorcio_veiculo
+foreign key (idVeiculo) references veiculo (idVeiculo);
