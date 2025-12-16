@@ -7,5 +7,7 @@
 create table if not exists administrador (
     cpfAdmin char(11) not null,
     senha varchar(10) not null, 
-    primary key (cpfAdmin)
+    primary key (cpfAdmin),
+    criadoEm datetime not null default current_timestamp,
+    atualizadoEm datetime not null default current_timestamp on update current_timestamp,
 );
