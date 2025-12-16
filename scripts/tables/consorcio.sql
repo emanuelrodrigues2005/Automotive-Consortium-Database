@@ -15,6 +15,8 @@ create table if not exists consorcio (
     nomeConsorcio varchar(255) not null,
     valorTotal decimal(15, 2) not null,
     primary key (idConsorcio),
+    criadoEm datetime not null default current_timestamp,
+    atualizadoEm datetime not null default current_timestamp on update current_timestamp,
     
     constraint ck_tax_admin check (taxAdmin >= 0 and taxAdmin <= 1)
 );
