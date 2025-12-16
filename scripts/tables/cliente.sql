@@ -4,7 +4,7 @@
 */
 
 create table if not exists cliente (
-    cpf varchar(11) not null,
+    cpf char(11) not null,
     nome varchar(64) not null,
     dataNascimento date not null,
     endereco varchar(128),
