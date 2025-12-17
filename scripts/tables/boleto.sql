@@ -14,5 +14,7 @@ create table if not exists boleto (
     statusBoleto varchar(20) not null,
     dataVencimento date not null,
     idContrato integer not null,
+    criadoEm datetime not null default current_timestamp,
+    atualizadoEm datetime not null default current_timestamp on update current_timestamp,
     primary key (idBoleto)
 );

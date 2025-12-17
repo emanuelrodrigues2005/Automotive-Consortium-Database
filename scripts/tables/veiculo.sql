@@ -10,5 +10,7 @@ create table if not exists veiculo(
     modeloVeiculo varchar(100) not null,
     marcaVeiculo varchar(100) not null,
     precoFipe decimal(15, 2) not null,
-    primary key (idVeiculo)
+    primary key (idVeiculo),
+    criadoEm datetime not null default current_timestamp,
+    atualizadoEm datetime not null default current_timestamp on update current_timestamp,
 );
