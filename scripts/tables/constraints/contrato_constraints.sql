@@ -15,7 +15,7 @@ foreign key (idVendedor) references vendedor(cpfVendedor);
 -- FK para a tabela cliente (quando criada)
 alter table contrato
 add constraint fk_contrato_cliente
-foreign key (idCliente) references cliente(idCliente);
+foreign key (idCliente) references cliente(cpf);
 
 
 -- FK para a tabela consorcio (quando criada)

@@ -6,9 +6,8 @@
 
 
 create table if not exists contrato (
-    
-    idContrato not null auto_increment,
-    idCliente int not null,
+    idContrato int not null auto_increment,
+    idCliente char(11) not null,
     idConsorcio int not null,
     dataInicio date not null,
     dataEncerramento date,

@@ -12,5 +12,5 @@ create table if not exists veiculo(
     precoFipe decimal(15, 2) not null,
     criadoEm datetime not null default current_timestamp,
     atualizadoEm datetime not null default current_timestamp on update current_timestamp,
-    primary key (idVeiculo),
+    primary key (idVeiculo)
 );

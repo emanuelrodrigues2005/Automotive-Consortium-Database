@@ -4,8 +4,7 @@
   Dependências: A tabela 'veiculo' precisa necessariamente existir
 */
 
-INSERT INTO veiculo (anoVeiculo, modeloVeiculo, marcaVeiculo, precoFipe) VALUES 
-
+insert into veiculo (anoVeiculo, modeloVeiculo, marcaVeiculo, precoFipe) values 
 ('2024', 'Mobi Like 1.0', 'Fiat', 71990.00),
 ('2024', 'Kwid Zen', 'Renault', 72640.00),
 ('2023', 'Onix Hatch LT', 'Chevrolet', 89000.00),

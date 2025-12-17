@@ -9,5 +9,5 @@ create table if not exists administrador (
     senha varchar(10) not null,
     criadoEm datetime not null default current_timestamp,
     atualizadoEm datetime not null default current_timestamp on update current_timestamp,
-    primary key (cpfAdmin),
+    primary key (cpfAdmin)
 );

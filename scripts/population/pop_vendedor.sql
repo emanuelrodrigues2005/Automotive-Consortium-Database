@@ -5,7 +5,7 @@
 */
 
 
-INSERT INTO vendedor (cpfVendedor, nome, email, telefone) VALUES
+insert into vendedor (cpfVendedor, nome, email, telefone) values
   ('12345678901', 'Ana Silva Santos', 'ana.silva@email.com', '11987654321'),
   ('23456789012', 'Bruno Oliveira Costa', 'bruno.oliveira@email.com', '21987654321'),
   ('34567890123', 'Carla Pereira Almeida', 'carla.pereira@email.com', '31987654321'),
