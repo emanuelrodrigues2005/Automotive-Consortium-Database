@@ -12,5 +12,7 @@ create table if not exists vendedor (
     nome char(100) not null,
     email char(40) not null,
     telefone char(11) not null,
+    criadoEm datetime not null default current_timestamp,
+    atualizadoEm datetime not null default current_timestamp on update current_timestamp,
     primary key(cpfVendedor)
 );
