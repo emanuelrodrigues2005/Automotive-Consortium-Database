@@ -1,5 +1,3 @@
-\connect automotive_consorcio
-
 /*
   Arquivo: scripts/population/pop_contrato.sql
   Objetivo: Popular tabela contrato com dados variados

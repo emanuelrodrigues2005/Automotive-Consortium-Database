@@ -5,9 +5,6 @@
   com seus respectivos dados populados
 */
 
-
-
-
 INSERT INTO consorcio (cpf_administrador, id_veiculo, taxa_administracao, valor_total_carta, numero_parcelas)
 VALUES
     -- Admin 1 gere um consórcio de Civic

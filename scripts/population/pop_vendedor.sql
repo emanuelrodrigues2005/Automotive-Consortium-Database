@@ -1,5 +1,3 @@
-\connect automotive_consorcio
-
 /*
   Arquivo: scripts/population/pop_vendedor.sql
   Objetivo: Popular tabela vendedor com dados realistas
